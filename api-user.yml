@@ -1,23 +1,20 @@
 #DEV
 ---
 spring:
-  profiles:
-    active: dev
+  profiles: dev
 
 user:
   name: simjihyun
   
 ---
 spring:
-  profiles:
-    active: stage
+  profiles: stage
 
 user:
   name: simjihyun2
 ---
 spring:
-  profiles:
-    active: live
+  profiles: live
 
 user:
   name: simjihyun3
